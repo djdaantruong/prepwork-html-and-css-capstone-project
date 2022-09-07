@@ -69,8 +69,11 @@ At this point, make decisions for the look and feel of your site. Select at most
 Don't write any CSS just yet, but organize these graphical elements into classes, and mark which class goes with each HTML element. For example:
 
 > H1 headers
+>
 > Font: Arial, strong, large
+>
 > Font color: #B7B6C1
+>
 > Text underlined with color #94958bs
 
 ## Phase 2: Construction
