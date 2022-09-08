@@ -14,10 +14,13 @@ a {
   transition: all 0.4s ease-in-out;
 }
 
+/* *** HOME PAGE *** */
+
 /* === HOME === */
 .hero {
-  height: 100vh;
+  height: 660px;
 }
+
 .container {
   max-width: 1150px;
   margin: 0 auto;
@@ -102,7 +105,7 @@ a {
   font-weight: 700;
   font-size: 44px;
   line-height: 57px;
-  color: #000;
+  color: #0f2544;
 }
 
 .content p {
@@ -139,7 +142,7 @@ a {
 
 /* === DATES === */
 .dates {
-  height: 100vh;
+  height: 660px;
   margin-top: 40px;
   background-color: #38383b;
   color: #fff;
@@ -264,12 +267,12 @@ a {
 }
 
 .form input {
-  padding: 20px 40px;
-  border: 1px solid #a8a6a1;
+  padding: 20px 60px;
+  border: 1px solid #ddd;
 }
 
 .form input::placeholder {
-  color: #a8a6a1;
+  color: #ccc;
   font-size: 16px;
   line-height: 19px;
 }
@@ -284,6 +287,11 @@ a {
   border: 2px solid #a8a6a1;
 }
 
+.form a:hover {
+  color: #fff;
+  background-color: #a8a6a1;
+}
+
 .footer ion-icon {
   font-size: 24px;
   cursor: pointer;
@@ -295,3 +303,9 @@ a {
   text-decoration-line: underline;
   margin-left: 4px;
 }
+
+/* *** REVIEW PAGE *** */
+
+/* === HEADER === */
+/* === REVIEW === */
+/* === FOOTER === */
